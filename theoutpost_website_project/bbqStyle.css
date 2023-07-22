@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Mynerve';
+  src: url(Mynerve-Regular.ttf);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #D73502;
+}
+
+h1{
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #fff;
+  font-family: 'Mynerve', sans-serif;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #fff;
+  font-family: 'Mynerve', sans-serif;
+}
+
+nav ul ul{
+  display: none;
+  padding-left: 0px;
+}
+
+nav ul{
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul:hover ul{
+  display: block;
+}
+
+.title{
+  padding-top: 20px;
+  margin-left: 150px;
+}
+
+.sidebar {
+  width: 150px;
+  max-width: 150px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding-top: 20px;
+  position: fixed;
+  text-align: center;
+  z-index: 3;
+}
+
+.sidebar img {
+  width: 75%;
+  height: auto;
+} 
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.image-with-overlay {
+  margin-left: 150px;
+  position: relative;
+}
+
+.image-with-overlay img {
+  width: 100%;
+  max-width: 100vh;
+  height: auto;
+  position: center;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.menu-item {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.menu-item h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.menu-item li {
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.menu-item p {
+  margin-top: 5px;
+  color: #dbdbdb;
+}
